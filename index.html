@@ -17,6 +17,10 @@ Person = Backbone.Model.extend({
 var person = new Person();
 person.set({ name: "Thomas", age: 67, child: "Ryan" });
 
+var name = person.get('name');		//Thomas
+var age = person.get('age');		//67
+var child = person.get('child');	//Ryan
+
 
 })(jQuery);
 </script>
