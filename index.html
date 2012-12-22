@@ -12,7 +12,11 @@ Person = Backbone.Model.extend({
 	}
 });
 
+//var person = new Person({ name: "Thomas", age: 67, child: "Ryan"});
+
 var person = new Person();
+person.set({ name: "Thomas", age: 67, child: "Ryan" });
+
 
 })(jQuery);
 </script>
