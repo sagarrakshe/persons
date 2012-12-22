@@ -7,6 +7,11 @@
 <script>
 (function ($) {
 Person = Backbone.Model.extend({
+	defaults: {
+		name: 'Fetus',
+		age: 0,
+		child: ''
+	},
 	initialize: function() {
 		alert("welcome to this world!");
 	}
